@@ -1,0 +1,7 @@
+data_path: data/raw/healthcare-dataset-stroke-data.csv
+use_pca: false
+pca_components: 5
+models: [LogisticRegression, RandomForest, XGBoost, SVM]
+optimization: true
+target_column: stroke
+report: true
